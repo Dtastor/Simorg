@@ -185,7 +185,7 @@ def init_db():
             cur.execute("""INSERT INTO users
                 (username,email,password,emoji,bio,admin,verified,pro)
                 VALUES(%s,%s,%s,%s,%s,1,1,1)""",
-                ("simorg","P@Sumorg",generate_password_hash("Html930343245532"),"🦅","Official Simurgh"))
+                ("simorg","P@Sumorg",generate_password_hash("n2mm6mO-!Rvea0w"),"🦅","Official Simurgh"))
         else:
             # Row already exists: never delete it, just make sure the official
             # login (email/password) and admin flag are the requested ones.
